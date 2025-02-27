@@ -1,0 +1,49 @@
+.container {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 500px;
+}
+
+#puzzle-board {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    width: 400px;
+    margin: 20px auto;
+}
+
+.tile {
+    width: 80px;
+    height: 80px;
+    background-color: #4CAF50;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.tile:hover {
+    background-color: #45a049;
+}
+
+.empty {
+    background-color: #ffffff;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #007399;
+} 
